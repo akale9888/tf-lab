@@ -3,6 +3,6 @@ provider "aws" {
   profile = "akashk"
 }
 
-resource "aws_iam_user" "rs1" {
-  name = var.list_name[2]
+resource "aws_iam_user" "rs11" {
+  name = var.map_name.u1
   }
