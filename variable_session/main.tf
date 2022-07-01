@@ -4,5 +4,5 @@ provider "aws" {
 }
 
 resource "aws_iam_user" "rs1" {
-  name = var.user_name
+  name = var.list_name[2]
   }
