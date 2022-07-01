@@ -1,9 +1,8 @@
-variable "map_name" {
-    type = map(string)   
+variable "any_name" {
+    type = any   
     default = {
-        u1 = "user1"
-        u2 = "user2"
-        u3= "user3"
-        u4= "user4"
+        u1 = "abc"
+        u2 = ["a1" , "a2" , "a3" , "a4"]
+       
 }
 }
